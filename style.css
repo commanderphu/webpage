@@ -1,0 +1,29 @@
+body{
+    background: url("pics/The-Flash-Symbol-Wallpapers-005.jpg");
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.flash-font{
+    color: #e8ac1f;
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 25px;
+}
+
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+#box{
+margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: #a13333;
+    border: 1px solid #e8ac1f;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
