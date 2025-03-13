@@ -13,6 +13,17 @@ _____
 
 `docker run --name "webpage" commandercentrale/webpage -p 80:80`
 
+```yml
+
+services:
+  webserver:
+    image: commandercentrale/webpage
+    container_name: webserver
+    ports:
+      - "80:80"
+
+
+```
 
 © 2019 by   **CommanderPhu** 
 <!--stackedit_data:
